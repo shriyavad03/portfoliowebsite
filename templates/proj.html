@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Shriya's Projects</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    </head>
+
+    
+    <style>
+        a.nav-link {
+    color: #000; 
+    transition: color 0.3s; 
+}
+
+a.nav-link:hover {
+    color: rgb(249, 96, 122); 
+}
+h2{
+    color: rgb(249, 96, 122);
+}
+    </style>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16" style="color:rgb(250, 31, 68)">
+                    <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+                  &nbsp;
+              <a class="navbar-brand" href="{% url 'home' %}">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="{% url 'projects' %}">Projects</a>
+                  <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                  <a class="nav-link" href="{% url 'interests' %}">Interests</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+                <h2 style="text-align: center;">Projects</h2>
+        <br>
+
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <div class="card-body">
+                      <p class="card-text">A research paper management system for a college to allow students and professors to easily view, edit, add their research work for public display.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/shriyavad03/rpms" style="text-decoration: none; color:rgb(250, 31, 68)">View Code</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <div class="card-body">
+                      <p class="card-text">A diabetes predictor that can determine if a patient is at high-risk to diabetes or not with a 97% accuracy using logistic regression.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/shriyavad03/Diabetes_Pred" style="text-decoration: none; color:rgb(250, 31, 68)">View Code</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                   <div class="card-body">
+                      <p class="card-text">Built a text-to-speech converter using python and Google APIs. It can read text typed in a text box or from a file.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/shriyavad03/text_to_speech" style="text-decoration: none; color:rgb(250, 31, 68)">View Code</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <div class="card-body">
+                      <p class="card-text">Built a program for parkinson's patients, that instructs users which number of fingers to display on which hand and gives points to the user, for every instruction they follow</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/shriyavad03/Diabetes_Pred" style="text-decoration: none; color:rgb(250, 31, 68)">View Code</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <div class="card-body">
+                      <p class="card-text">Developed a few programs using python, some of which include a program to create a qr code for a certain link, take screenshots, and send notifications to user at set intervals. </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/shriyavad03/pyprograms" style="text-decoration: none; color:rgb(250, 31, 68)">View Code</a></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>      
+
+              </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
